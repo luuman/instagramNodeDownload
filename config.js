@@ -1,37 +1,26 @@
 let config = {
   // 部分ins用户设置需关注后才可获取, 可配置用户cookie 键为"sessionid"
-  sessionCookie: '2321720482%3Asoqr1X5OJdHKc5%3A14',
+  sessionCookie: '',
 
   // 抓取用户列表
-
   userFollow: '',
-  tagList: ['color',
-  'art',
-  'draw',
-  'sketch'],
+  tagList: ['color'],
+  // 关键词内容抓取
   tagUsers: ['私房'],
   // isTag: true,
   isTag: false,
 
   // 本地地址
-  // savePath: '../../../../Downloads/GooSeeker/insMediaDown/',
+  savePath: './Media/',
 
-  // 群辉内网
-  // savePath: '../../../../../../Volumes/photo/ins/',
-  // savePath: '../../../../../../Volumes/photo/美女/',
-  // savePath: '../../../../../../Volumes/photo/美女/',
-
-  // 群辉外网
-  // savePath: '../../../../../../Volumes/luuman.f3322.net/photo/ins/',
-  savePath: '../../../../../../Volumes/192.168.31.153/photo/ins/',
-    // savePath: '../../../../../../Volumes/luuman.f3322.net/photo/美女/',
-
-  // saveVideoPath: '../../../../../../Volumes/video/ins/',
   maxMediaOccurs: 18,
+  // 时间间隔
   timeout: 30000,
-  // 本地
+  // 本地代理
   proxy: 'http://127.0.0.1:1087',
+
   igrCAErr: false,
+  // 用户名
   downUsers: [
     'mykhailo_rychkov',
     'watercolor.zone',
